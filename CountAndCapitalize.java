@@ -131,18 +131,18 @@ public class CountAndCapitalize {
 		}
 	}
 
- public static void main(String []args){
+ public static void main(String args[]){
 
-	     System.out.println("Input string:");
+	 System.out.println("Input string:");
          Scanner s = new Scanner(System.in);
 
          String str = s.next();
 
          str += s.nextLine();
 
-				 System.out.println("\nThe character count result is----\n");
+	 System.out.println("\nThe character count result is----\n");
          count_no(str);
-				 System.out.println("\nThe converted string into string with alternate capitalize characters is----\n");
-				 capitalize_string(str);
+	 System.out.println("\nThe converted string into string with alternate capitalize characters is----\n");
+	 capitalize_string(str);
      }
 }
